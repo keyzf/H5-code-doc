@@ -1,0 +1,86 @@
+[contenteditable]:focus {
+    outline: none;
+}
+
+.body { 
+    margin: 0;
+    padding: 0;
+}
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.1);
+}
+#doc {
+    width: 700px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.settings {
+    position: relative;
+    top:0;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(0,0,0,0.09);
+}
+.settings button {
+    height: 30px;
+    line-height: 30px;
+    border:1px solid #dddddd;
+    background: #ffffff;
+    outline:none;
+}
+
+#editor {
+    position: relative;
+    width: 700px;
+    min-height: 900px;
+    margin-top: 10px;
+    color: #494949;
+    overflow-y: auto;
+    overflow-x:hidden;
+    height: calc(100% - 76px);
+    border: 1px solid #dddddd;
+}
+.title-val {
+    box-sizing: content-box;
+    width: auto;
+    font-size: 22.5pt;
+    height: 60px;
+    padding-top: 90px;
+    border-bottom: 1px solid #e8ecf1;
+}
+
+.title-val-input {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 100%;
+    line-height: 50px;
+    color: #333;
+    font-weight: bold;
+    background: transparent;
+    margin: 0 50px;
+}
+
+.line {
+    height: auto;
+    min-height: 24px;
+    padding: 0 60px;
+}
+
+#editor ::selection, .selectedVal {
+    background:#d8ebff;
+}
