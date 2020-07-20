@@ -70,3 +70,4 @@ let removeSelectedTag = function() {
     selObj.parentNode.innerHTML = currHTML;
     selObj = null;
 }
+

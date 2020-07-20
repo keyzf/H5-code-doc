@@ -5,6 +5,7 @@
 .body { 
     margin: 0;
     padding: 0;
+    background: yellow;
 }
 ::-webkit-input-placeholder {
     color: rgba(0, 0, 0, 0.1);
@@ -56,7 +57,7 @@
     width: auto;
     font-size: 22.5pt;
     height: 60px;
-    padding-top: 90px;
+    padding-top: 30px;
     border-bottom: 1px solid #e8ecf1;
 }
 
